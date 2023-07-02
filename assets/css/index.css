@@ -6,6 +6,7 @@
 }
 
 header {
+    z-index: 1;
     height: max-content;
     width: 100vw;
     position: fixed;
@@ -32,4 +33,12 @@ li>a {
     text-decoration: none;
     color: #66AC82;
 
+}
+
+/*-----------------------------------home----------------------------------*/
+#home-section {
+    height: 800px;
+    display: flex;
+    background: url("../wave.svg") no-repeat top left;
+    overflow: hidden;
 }
