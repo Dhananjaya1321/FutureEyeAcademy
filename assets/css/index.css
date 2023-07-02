@@ -6,7 +6,7 @@
 }
 
 header {
-    z-index: 1;
+    z-index: 10;
     height: max-content;
     width: 100vw;
     position: fixed;
@@ -41,4 +41,62 @@ li>a {
     display: flex;
     background: url("../wave.svg") no-repeat top left;
     overflow: hidden;
+    position: relative;
 }
+/*image and circles*/
+#home-section > aside > img {
+    width: 310px;
+    z-index: 1;
+    position: relative;
+
+}
+
+#home-section > aside {
+    position: absolute;
+    right: 20px;
+    bottom: 220px;
+}
+
+#home-section > aside > div:nth-child(2) {
+    position: absolute;
+    right: -20px;
+    bottom: 220px;
+    border-radius: 100%;
+    width: 220px;
+    height: 220px;
+    background-color: #00FF66;
+}
+
+#home-section > aside > div:nth-child(3) {
+    position: absolute;
+    right: -20px;
+    bottom: 4px;
+    width: 150px;
+    height: 75px;
+    background-color: #00FF66;
+    z-index: 1;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+}
+
+#home-section > aside > div:nth-child(4) {
+    position: absolute;
+    right: 180px;
+    bottom: -80px;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    background-color: #00FF66;
+}
+
+#home-section > aside > div:nth-child(5) {
+    position: absolute;
+    right: 260px;
+    bottom: 320px;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    background-color: #00FF66;
+    box-shadow: 0px 2px 5px -2px black;
+}
+
