@@ -163,16 +163,16 @@ li > a {
 
 /*--------------------------------about section---------------------------------------------*/
 /*about topic*/
-#about-topic-div{
+.topic-div{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
 }
-#about-topic-div>h1{
+.topic-div>h1{
     margin: 0;
 }
-#about-topic-div>div{
+.topic-div>div{
     margin-top: 15px;
     margin-left: 4px;
     width: 12px;
@@ -190,4 +190,25 @@ li > a {
 }
 #about-content-section>div>img{
     width: 400px;
+}
+/*social links*/
+#about-content-section>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+}
+.social-links>div{
+    width: 50px;
+    height: 50px;
+    background-color: #00FF66;
+    border-radius: 100%;
 }
