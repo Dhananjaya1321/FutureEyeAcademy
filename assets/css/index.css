@@ -228,6 +228,14 @@ li > a {
     background-color: #C9FFD8;
 }
 
+#topic-courses > h1 {
+    margin-top: 20px;
+}
+
+#topic-courses > div {
+    margin-top: 32px;
+}
+
 #course-menu {
     gap: 10px;
     padding: 0;
@@ -314,4 +322,36 @@ li > a {
     margin: 50px;
     box-shadow: 0px 5px 9px -6px black;
     border-radius: 10px
+}
+
+/*------------------------------------------comments------------------------------------------------*/
+#feedbacks-section {
+    background-color: #C9FFD8;
+}
+
+
+#feedbacks-section > section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#feedbacks-section > section > div {
+    width: 220px;
+    height: 300px;
+    background-color: white;
+    padding: 10px;
+    margin: 50px;
+    box-shadow: 0px 5px 9px -6px black;
+    border-radius: 10px
+}
+
+#topic-feedback > h1 {
+    margin-top: 20px;
+}
+
+#topic-feedback > div {
+    margin-top: 32px;
 }
