@@ -142,14 +142,15 @@ li > a {
     font-family: 'Julius Sans One', sans-serif;
 }
 
-#div-join-whatsapp-group{
+#div-join-whatsapp-group {
     display: flex;
     top: 11px;
     height: 50px;
     margin-top: 57px;
     align-items: center;
 }
-#div-join-whatsapp-group>button{
+
+#div-join-whatsapp-group > button {
     height: 50px;
     border-radius: 10px;
     border: none;
@@ -163,16 +164,18 @@ li > a {
 
 /*--------------------------------about section---------------------------------------------*/
 /*about topic*/
-.topic-div{
+.topic-div {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
 }
-.topic-div>h1{
+
+.topic-div > h1 {
     margin: 0;
 }
-.topic-div>div{
+
+.topic-div > div {
     margin-top: 15px;
     margin-left: 4px;
     width: 12px;
@@ -180,35 +183,94 @@ li > a {
     border-radius: 100%;
     background-color: #00FF66;
 }
+
 /*about content*/
-#about-content-section{
+#about-content-section {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
     flex-direction: row;
 }
-#about-content-section>div>img{
+
+#about-content-section > div > img {
     width: 400px;
 }
+
 /*social links*/
-#about-content-section>div{
+#about-content-section > div {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     flex-direction: column;
 }
-.social-links{
+
+.social-links {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     flex-direction: row;
 }
-.social-links>div{
+
+.social-links > div {
     width: 50px;
     height: 50px;
     background-color: #00FF66;
     border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+/*----------------------------------------------courses--------------------------------------------*/
+#courses-section {
+    background-color: #C9FFD8;
+}
+
+#course-menu {
+    gap: 10px;
+    padding: 0;
+}
+
+#course-menu > div {
+    height: 15px;
+    width: 2px;
+    background-color: black;
+}
+
+#course-menu > li > a {
+    color: black;
+}
+
+#courses-section > section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#courses-section > section > div {
+    width: 220px;
+    height: 300px;
+    background-color: white;
+    padding: 10px;
+    margin: 50px;
+    box-shadow: 0px 5px 9px -6px black;
+    border-radius: 10px
+}
+/*button*/
+#view-all-courses-div {
+    display: flex;
+    justify-content: center;
+}
+
+#view-all-courses-div > button {
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0px 2px 7px -4px black;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
 }
