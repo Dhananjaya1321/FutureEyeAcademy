@@ -1,6 +1,7 @@
-*{
+* {
     scroll-behavior: smooth;
 }
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -18,6 +19,7 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #00ff0e;
 }
+
 /*-----------------------------header--------------------------------*/
 #fav-icon, #fav-icon > img {
     width: 50px;
@@ -56,9 +58,11 @@ li > a {
     color: #66AC82;
 
 }
-#header-menu>li{
+
+#header-menu > li {
     font-size: 20px;
 }
+
 /*-----------------------------------home----------------------------------*/
 #home-section {
     height: 650px;
@@ -396,6 +400,30 @@ li > a {
 #social-links-footer > div {
     margin-bottom: 0px;
 }
-#students-works-menu,#course-menu{
+
+#students-works-menu, #course-menu {
     font-family: 'Inria Serif', serif;
 }
+
+/*------------------------------------------contact-----------------------------------------------*/
+#contact > button > svg {
+    font-size: 40px
+}
+
+#contact > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #00ff0e;
+    z-index: 5;
+    border-radius: 15px 15px 15px 15px;
+    width: 65px;
+    height: 65px;
+    box-shadow: 0px 3px 8px -3px black;
+    border: none;
+}
+
+
