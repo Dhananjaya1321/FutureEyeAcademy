@@ -256,6 +256,7 @@ li > a {
 /*----------------------------------------------courses--------------------------------------------*/
 #courses-section {
     background-color: #C9FFD8;
+    position: relative;
 }
 
 #topic-courses > h1 {
@@ -269,6 +270,8 @@ li > a {
 #course-menu {
     gap: 10px;
     padding: 0;
+    margin-top: 50px;
+
 }
 
 #course-menu > div {
@@ -282,6 +285,8 @@ li > a {
 }
 
 #courses-section > section {
+    width: 80%;
+    margin: auto;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -294,7 +299,7 @@ li > a {
     height: 300px;
     background-color: white;
     padding: 10px;
-    margin: 50px;
+    margin: 15px;
     box-shadow: 0px 5px 9px -6px black;
     border-radius: 10px
 }
@@ -304,10 +309,12 @@ li > a {
     display: flex;
     justify-content: center;
 }
-
+#courses-section>div:last-child>button{
+    margin-bottom: 40px;
+}
 .view-all-div > button {
     padding: 5px 10px 5px 10px;
-    margin-bottom: 20px;
+    margin: 20px;
     border: none;
     box-shadow: 0px 2px 7px -4px black;
     border-radius: 10px;
@@ -318,12 +325,13 @@ li > a {
 /*------------------------------------------student works------------------------------------------------*/
 #student-works-section {
     background-color: white;
+    position: relative;
 }
 
 #students-works-menu {
     gap: 10px;
     padding: 0;
-    margin-bottom: 0;
+    margin-top: 50px;
 }
 
 #students-works-menu > div {
@@ -337,6 +345,8 @@ li > a {
 }
 
 #student-works-section > section {
+    width: 80%;
+    margin: auto;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -349,7 +359,7 @@ li > a {
     height: 300px;
     background-color: #C9FFD8;
     padding: 10px;
-    margin: 50px;
+    margin: 15px;
     box-shadow: 0px 5px 9px -6px black;
     border-radius: 10px
 }
@@ -424,6 +434,27 @@ li > a {
     height: 65px;
     box-shadow: 0px 3px 8px -3px black;
     border: none;
+}
+
+@media all and (max-width: 1440px) {
+    #courses-section > section {
+        width: 90%;
+    }
+
+    #student-works-section > section {
+        width: 90%;
+    }
+
+}
+
+@media all and (min-width: 1200px) and (max-width: 1440px) {
+    #courses-section > section {
+        width: 72%;
+    }
+
+    #student-works-section > section {
+        width: 72%;
+    }
 }
 
 
