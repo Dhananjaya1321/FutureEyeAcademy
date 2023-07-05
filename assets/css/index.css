@@ -402,15 +402,37 @@ li > a {
 /*------------------------------------------comments------------------------------------------------*/
 #feedbacks-section {
     background-color: #C9FFD8;
+    overflow: hidden;
 }
 
 
 #feedbacks-section > section {
+    width: calc(100% * 3);
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+
+    animation-name: animation_feedbacks;
+    animation-direction: alternate;
+    animation-duration: 20s;
+    animation-timing-function: cubic-bezier(0.53, 0.53, 0.53, 0.53);
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes animation_feedbacks {
+    0% {
+        transform: translateX(calc((-100% / 3) * 0));
+    }
+    50% {
+        transform: translateX(calc((-100% / 3) * 1));
+
+    }
+    100% {
+        transform: translateX(calc((-100% / 3) * 2));
+    }
 }
 
 
@@ -438,16 +460,25 @@ li > a {
     flex-direction: row;
 }
 
+#feedbacks-section > section > div > div:hover {
+    transform: scale(1.1);
+}
+
 #feedbacks-section > section > div > div {
+    display: flex;
     position: relative;
     width: 220px;
     height: 300px;
     background-color: white;
     padding: 10px;
-    margin: 80px 50px 50px 50px;
+    margin: 90px 50px 50px 50px;
     box-shadow: -12px 13px 20px -19px black;
     border-radius: 80px 30px 100px 35px;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s;
 }
+
 
 #topic-feedback > h1 {
     margin-top: 20px;
@@ -455,6 +486,10 @@ li > a {
 
 #topic-feedback > div {
     margin-top: 32px;
+}
+
+.feedback-body > p {
+    padding: 20px 20px 0px 20px;
 }
 
 /*------------------------------------------footer---------------------------------------------*/
