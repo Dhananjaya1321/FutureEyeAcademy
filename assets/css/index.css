@@ -179,6 +179,7 @@ li > a {
 #div-join-whatsapp-group > button:hover {
     box-shadow: 0px 1px 20px 0px #00ff0e;
 }
+
 #div-join-whatsapp-group > button {
     height: 50px;
     border-radius: 10px;
@@ -223,12 +224,21 @@ li > a {
     flex-direction: row;
 }
 
-#about-content-section > div > img {
+#about-content-section > div:last-child {
+    width: 55%;
+}
+
+#about-article-div {
+    padding: 20px;
+    font-size: 18px;
+}
+
+#about-content-section > div > div > img {
     width: 400px;
 }
 
 /*social links*/
-#about-content-section > div {
+#about-image-div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -281,7 +291,7 @@ li > a {
     gap: 10px;
     padding: 0;
     margin-top: 50px;
-
+    font-size: 18px;
 }
 
 #course-menu > div {
@@ -307,6 +317,7 @@ li > a {
 #courses-section > section > div:hover {
     transform: scale(1.1);
 }
+
 #courses-section > section > div {
     width: 220px;
     height: 300px;
@@ -336,6 +347,8 @@ li > a {
     border-radius: 10px;
     width: 100px;
     height: 40px;
+    background: white;
+    font-size: 18px;
 }
 
 /*------------------------------------------student works------------------------------------------------*/
@@ -348,6 +361,7 @@ li > a {
     gap: 10px;
     padding: 0;
     margin-top: 50px;
+    font-size: 18px;
 }
 
 #students-works-menu > div {
@@ -373,6 +387,7 @@ li > a {
 #student-works-section > section > div:hover {
     transform: scale(1.1);
 }
+
 #student-works-section > section > div {
     width: 220px;
     height: 300px;
@@ -443,6 +458,7 @@ li > a {
 #contact > button:hover {
     box-shadow: 0px 3px 20px 0px #41FA00;
 }
+
 #contact > button {
     display: flex;
     justify-content: center;
