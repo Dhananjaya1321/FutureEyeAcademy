@@ -413,14 +413,40 @@ li > a {
     flex-wrap: wrap;
 }
 
-#feedbacks-section > section > div {
+
+#feedbacks-section > section > div > div > div > div {
+    width: 115px;
+    height: 115px;
+    background: #00ff66;
+    left: 0;
+    right: 0;
+    border-radius: 100%;
+}
+
+#feedbacks-section > section > div > div > div {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background: #fff;
+    display: flex;
+    left: 0;
+    top: -60px;
+    border-radius: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#feedbacks-section > section > div > div {
+    position: relative;
     width: 220px;
     height: 300px;
     background-color: white;
     padding: 10px;
-    margin: 50px;
-    box-shadow: 0px 5px 9px -6px black;
-    border-radius: 10px
+    margin: 80px 50px 50px 50px;
+    box-shadow: -12px 13px 20px -19px black;
+    border-radius: 80px 30px 100px 35px;
 }
 
 #topic-feedback > h1 {
