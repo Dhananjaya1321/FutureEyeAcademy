@@ -363,7 +363,12 @@ li > a {
     padding-right: 5px;
 }
 
-#courses-section > section > div > div > button {
+#courses-section > section > div > div > a {
+    text-decoration:none;
+    display: flex;
+    justify-content: center;
+}
+#courses-section > section > div > div > a>button {
     border: none;
     width: 100px;
     align-self: center;
