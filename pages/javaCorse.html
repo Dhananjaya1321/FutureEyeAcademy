@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <style>
+        section:nth-child(1) {
+            width: 98vw;
+            overflow: hidden;
+            height: 40vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        section:nth-child(2) {
+            position: relative;
+            height: 500px;
+        }
+
+        section:nth-child(2) > div {
+            display: flex;
+            margin: auto;
+            width: 80vw;
+            border-radius: 20px;
+            position: absolute;
+            left: 0;
+            top: -50px;
+            right: 0;
+            height: 100px;
+            background-color: white;
+            box-shadow: 0 0 12px -6px black;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .lines {
+            width: 1px;
+            height: 50px;
+            background-color: #9E9E9E;
+        }
+
+        .details {
+            display: flex;
+            flex-direction: column
+        }
+
+        .details > p, h3 {
+            margin: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .details > p {
+            color: #9E9E9E;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <img src="../assets/images/ecommers.jpg">
+</section>
+<section>
+    <div>
+        <div class="details">
+            <h3>Beginner level</h3>
+            <p>No previous experience necessary</p>
+        </div>
+        <div class="lines"></div>
+        <div class="details">
+            <h3>2 Months</h3>
+            <p>Two days per week</p>
+        </div>
+        <div class="lines"></div>
+        <div class="details">
+            <h3>Schedule Online</h3>
+            <p>Live class : Friday 8:00 p.m. and Friday 8:00 p.m.</p>
+        </div>
+        <div class="lines"></div>
+        <div class="details">
+            <h3>Language</h3>
+            <p>Sinhala Medium</p>
+        </div>
+    </div>
+</section>
+</body>
+</html>
