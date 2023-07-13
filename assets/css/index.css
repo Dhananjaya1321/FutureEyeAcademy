@@ -130,12 +130,11 @@ li > a {
     box-shadow: 0px 2px 5px -2px black;
 }
 
-/**/
 #home-section > article {
     position: absolute;
     width: 75%;
-    top: 50px;
-    left: 25px;
+    top: 68px;
+    left: 50px;
 }
 
 #home-section > article > h5 {
@@ -144,18 +143,20 @@ li > a {
     left: 10px;
     font-size: 30px;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 5px;
     font-family: 'Julius Sans One', sans-serif;
+    font-weight: 100;
 }
 
 #home-section > article > h1 {
     position: relative;
     top: 20px;
     left: 10px;
-    font-size: 100px;
+    font-size: 120px;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 5px;
     font-family: 'Julius Sans One', sans-serif;
+    font-weight: 100;
 }
 
 #home-section > article > h3 {
@@ -164,8 +165,9 @@ li > a {
     left: 10px;
     font-size: 40px;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 5px;
     font-family: 'Julius Sans One', sans-serif;
+    font-weight: 100;
 }
 
 #div-join-whatsapp-group {
@@ -185,7 +187,7 @@ li > a {
     border-radius: 10px;
     border: none;
     box-shadow: 0px 1px 4px -2px black;
-    margin-left: 178px;
+    margin-left: 200px;
     color: white;
     font-size: 24px;
     background: #41FA00;
@@ -364,11 +366,12 @@ li > a {
 }
 
 #courses-section > section > div > div > a {
-    text-decoration:none;
+    text-decoration: none;
     display: flex;
     justify-content: center;
 }
-#courses-section > section > div > div > a>button {
+
+#courses-section > section > div > div > a > button {
     border: none;
     width: 100px;
     align-self: center;
