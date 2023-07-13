@@ -21,13 +21,19 @@
 }
 
 /*-----------------------------header--------------------------------*/
+#header-section{
+    /*background-color: #C9FFD8;
+    box-shadow: 0 0 0 0 black;*/
+}
+
 #fav-icon, #fav-icon > img {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     display: inline;
     position: relative;
     left: 5px;
     top: 2px;
+    margin-bottom: 6px;
 }
 
 header {
@@ -54,10 +60,12 @@ header > nav, menu, menu > li {
     align-items: center;
 }
 
+li > a:hover {
+    color: #00ff0e;
+}
 li > a {
     text-decoration: none;
     color: #66AC82;
-
 }
 
 #header-menu > li {
