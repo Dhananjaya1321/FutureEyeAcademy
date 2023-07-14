@@ -1,0 +1,168 @@
+#student-works-section {
+    background-color: #C9FFD8;
+    position: relative;
+}
+
+body {
+    background-color: #C9FFD8;
+}
+
+.topic-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.topic-div > div {
+    margin-top: 15px;
+    margin-left: 4px;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: #00FF66;
+}
+
+#students-works-menu {
+    font-family: 'Inria Serif', serif;
+}
+
+#students-works-menu {
+    gap: 10px;
+    padding: 0;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+header > nav, menu, menu > li {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#topic-courses > h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#topic-courses > div {
+    margin-top: 13px;
+}
+
+#students-works-menu {
+    gap: 10px;
+    padding: 0;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#students-works-menu > div {
+    height: 15px;
+    width: 2px;
+    background-color: black;
+}
+
+#students-works-menu > li > a {
+    color: black;
+    text-decoration: none;
+}
+
+#student-works-section > section {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+#student-works-section > section > div:hover {
+    transform: scale(1.1);
+}
+
+#student-works-section > section > div {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    padding: 10px;
+    margin: 15px;
+    box-shadow: 0px 5px 9px -6px black;
+    border-radius: 10px;
+    transition: transform 0.5s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#student-works-section > section > div > img {
+    position: absolute;
+    height: 225px;
+    top: 10px;
+    left: 0;
+    right: 0;
+    width: 300px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#student-works-section > section > div > div {
+    position: absolute;
+    bottom: 15px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#student-works-section > section > div > div > p {
+    color: #636363;
+}
+
+#student-works-section > section > div > div > h2, p {
+    margin: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#student-works-section > section > div > div > a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+#student-works-section > section > div > div > a > button {
+    border: none;
+    width: 100px;
+    align-self: center;
+    font-weight: bold;
+    height: 30px;
+    border-radius: 5px;
+    background: #00ff0e;
+    font-size: 16px;
+    color: white;
+    box-shadow: 0px 3px 5px -4px black;
+}
+
+.time {
+    font-size: 12px;
+}
+
+@media all and (max-width: 425px) {
+    nav {
+        display: none
+    }
+}
+
+@media all and (max-width: 375px) {
+    #student-works-section > section > div > img {
+        width: 275px;
+        height: 215px;
+    }
+}
