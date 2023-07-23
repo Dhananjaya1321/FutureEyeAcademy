@@ -21,7 +21,7 @@
 }
 
 /*-----------------------------header--------------------------------*/
-#header-section{
+#header-section {
     /*background-color: #C9FFD8;
     box-shadow: 0 0 0 0 black;*/
 }
@@ -63,6 +63,7 @@ header > nav, menu, menu > li {
 li > a:hover {
     color: #00ff0e;
 }
+
 li > a {
     text-decoration: none;
     color: #66AC82;
@@ -243,6 +244,7 @@ li > a {
     font-size: 24px;
     font-family: 'Catamaran', sans-serif;
 }
+
 #about-article-div {
     padding: 20px;
     font-size: 18px;
@@ -412,7 +414,7 @@ li > a {
     margin-bottom: 40px;
 }
 
-.view-all-div >a> button {
+.view-all-div > a > button {
     padding: 5px 10px 5px 10px;
     margin: 20px;
     border: none;
@@ -630,14 +632,36 @@ li > a {
         width: 72%;
     }
 }
+
 @media all and (max-width: 425px) {
-    #courses-section > section > div:nth-child(4),#courses-section > section >div:nth-child(5),#courses-section > section >div:nth-child(6),#courses-section > nav {
-        display: none;
-    }
-    #student-works-section > section > div:nth-child(4),#student-works-section > section >div:nth-child(5),#student-works-section > section >div:nth-child(6),#student-works-section > nav {
+    #courses-section > section > div:nth-child(4), #courses-section > section > div:nth-child(5), #courses-section > section > div:nth-child(6), #courses-section > nav {
         display: none;
     }
 
+    #student-works-section > section > div:nth-child(4), #student-works-section > section > div:nth-child(5), #student-works-section > section > div:nth-child(6), #student-works-section > nav {
+        display: none;
+    }
+
+    #about-content-section > div > div > img {
+        display: none;
+    }
+    #about-content-section {
+        gap: 10px;
+        flex-direction: column-reverse;
+    }
+
+    #about-content-section > div:last-child {
+        width: 98%;
+    }
+
+    #about-article-div > p {
+        font-size: 16px;
+    }
+
+    .social-links {
+        gap: 20px;
+        flex-direction: row;
+    }
 }
 
 
