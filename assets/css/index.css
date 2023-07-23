@@ -412,7 +412,7 @@ li > a {
     margin-bottom: 40px;
 }
 
-.view-all-div > button {
+.view-all-div >a> button {
     padding: 5px 10px 5px 10px;
     margin: 20px;
     border: none;
@@ -629,6 +629,15 @@ li > a {
     #student-works-section > section {
         width: 72%;
     }
+}
+@media all and (max-width: 425px) {
+    #courses-section > section > div:nth-child(4),#courses-section > section >div:nth-child(5),#courses-section > section >div:nth-child(6),#courses-section > nav {
+        display: none;
+    }
+    #student-works-section > section > div:nth-child(4),#student-works-section > section >div:nth-child(5),#student-works-section > section >div:nth-child(6),#student-works-section > nav {
+        display: none;
+    }
+
 }
 
 
