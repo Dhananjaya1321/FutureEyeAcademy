@@ -96,7 +96,7 @@ li > a {
     bottom: 70px;
 }
 
-#home-section > aside > div:nth-child(2) {
+#home-section > aside > div:nth-child(3) {
     position: absolute;
     right: -20px;
     bottom: 220px;
@@ -106,7 +106,7 @@ li > a {
     background-color: #00FF66;
 }
 
-#home-section > aside > div:nth-child(3) {
+#home-section > aside > div:nth-child(4) {
     position: absolute;
     right: -20px;
     bottom: 4px;
@@ -118,7 +118,7 @@ li > a {
     border-top-right-radius: 75px;
 }
 
-#home-section > aside > div:nth-child(4) {
+#home-section > aside > div:nth-child(5) {
     position: absolute;
     right: 180px;
     bottom: -70px;
@@ -129,7 +129,7 @@ li > a {
     z-index: 1;
 }
 
-#home-section > aside > div:nth-child(5) {
+#home-section > aside > div:nth-child(6) {
     position: absolute;
     right: 260px;
     bottom: 320px;
@@ -616,7 +616,9 @@ li > a {
     #courses-section > section {
         width: 90%;
     }
-
+    #home-section > aside > img:nth-child(2) {
+    display: none;
+    }
     #student-works-section > section {
         width: 90%;
     }
@@ -678,6 +680,115 @@ li > a {
 
     #about-article-div > p {
         font-size: 16px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    #home-section {
+        height: 580px;
+    }
+    #home-section {
+        background:none;
+
+    }
+    #home-section > aside {
+        width: 100vw;
+        right: unset;
+        bottom: unset;
+        height: 370px;
+    }
+
+
+    #home-section > aside > img:nth-child(1) {
+        display: none;
+    }
+
+    #home-section > aside > img:nth-child(2) {
+        display: block;
+        width: 310px;
+        z-index: 1;
+        left: 0;
+        position: absolute;
+        right: 0;
+        margin: auto;
+        top: 50px;
+    }
+    /*#home-section > aside > div:nth-child(3) {
+        top: 69px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 290px;
+        height: 290px;
+    }*/
+    #home-section > aside > div:nth-child(4),#home-section > aside > div:nth-child(3) {
+        display: none;
+    }
+    #home-section > aside > div:nth-child(5) {
+        top: -65px;
+        left: -45px;
+        width: 150px;
+        height: 150px;
+        z-index: 0;
+    }
+    #home-section > aside > div:nth-child(6) {
+        left: 0;
+        right: 0;
+        top: 50px;
+        width: 310px;
+        bottom: 0;
+        height: 310px;
+        position: absolute;
+        margin: auto;
+    }
+
+
+
+    #home-section > article {
+        width: 100%;
+        top: unset;
+        left: 0px;
+        bottom: 20px;    }
+
+    #home-section > article > h5 {
+        text-align: center;
+        font-size: 16px;
+        left: 0px;
+    }
+
+    #home-section > article > h1 {
+        font-size: 41px;
+        text-align: center;
+        left: 0px;
+    }
+
+    #home-section > article > h3 {
+        font-size: 18px;
+        text-align: center;
+        left: 0px;
+    }
+
+    #div-join-whatsapp-group {
+        display: flex;
+        top: 11px;
+        height: 50px;
+        margin-top: 38px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #div-join-whatsapp-group > button {
+        height: 38px;
+        margin-left: 0;
+        color: white;
+        font-size: 16px;
+
+    }
+}
+
+@media all and (max-width: 500px) {
+    header > nav {
+        display: none;
     }
 }
 
