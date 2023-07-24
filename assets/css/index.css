@@ -655,7 +655,7 @@ li > a {
         display: none;
     }
 
-    .social-links {
+    #social-links {
         gap: 0px;
         flex-direction: column;
     }
