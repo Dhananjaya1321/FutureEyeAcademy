@@ -616,9 +616,11 @@ li > a {
     #courses-section > section {
         width: 90%;
     }
+
     #home-section > aside > img:nth-child(2) {
-    display: none;
+        display: none;
     }
+
     #student-works-section > section {
         width: 90%;
     }
@@ -648,7 +650,6 @@ li > a {
         width: 350px;
     }
 }
-
 
 @media all and (min-width: 425px) and (max-width: 768px) {
     #about-content-section > div > div > img {
@@ -681,16 +682,23 @@ li > a {
     #about-article-div > p {
         font-size: 16px;
     }
+
+    menu > li {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
 }
 
 @media all and (max-width: 600px) {
     #home-section {
         height: 580px;
     }
-    #home-section {
-        background:none;
 
+    #home-section {
+        background: none;
+        background-color: #c9ffd8;
     }
+
     #home-section > aside {
         width: 100vw;
         right: unset;
@@ -713,24 +721,19 @@ li > a {
         margin: auto;
         top: 50px;
     }
-    /*#home-section > aside > div:nth-child(3) {
-        top: 69px;
-        left: 0;
-        right: 0;
-        margin: auto;
-        width: 290px;
-        height: 290px;
-    }*/
-    #home-section > aside > div:nth-child(4),#home-section > aside > div:nth-child(3) {
+
+    #home-section > aside > div:nth-child(4), #home-section > aside > div:nth-child(3) {
         display: none;
     }
+
     #home-section > aside > div:nth-child(5) {
-        top: -65px;
-        left: -45px;
+        top: -67px;
+        left: -60px;
         width: 150px;
         height: 150px;
         z-index: 0;
     }
+
     #home-section > aside > div:nth-child(6) {
         left: 0;
         right: 0;
@@ -743,12 +746,12 @@ li > a {
     }
 
 
-
     #home-section > article {
         width: 100%;
         top: unset;
         left: 0px;
-        bottom: 20px;    }
+        bottom: 20px;
+    }
 
     #home-section > article > h5 {
         text-align: center;
@@ -784,6 +787,15 @@ li > a {
         font-size: 16px;
 
     }
+
+    #courses-section > section > div:nth-child(4), #courses-section > section > div:nth-child(5), #courses-section > section > div:nth-child(6) {
+        display: none;
+    }
+
+    #student-works-section > section > div:nth-child(4), #student-works-section > section > div:nth-child(5), #student-works-section > section > div:nth-child(6) {
+        display: none;
+    }
+
 }
 
 @media all and (max-width: 500px) {
@@ -793,11 +805,11 @@ li > a {
 }
 
 @media all and (max-width: 425px) {
-    #courses-section > section > div:nth-child(4), #courses-section > section > div:nth-child(5), #courses-section > section > div:nth-child(6), #courses-section > nav {
+    #courses-section > nav {
         display: none;
     }
 
-    #student-works-section > section > div:nth-child(4), #student-works-section > section > div:nth-child(5), #student-works-section > section > div:nth-child(6), #student-works-section > nav {
+    #student-works-section > nav {
         display: none;
     }
 
