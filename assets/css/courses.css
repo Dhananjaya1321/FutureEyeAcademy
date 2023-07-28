@@ -16,6 +16,9 @@ img {
 section:nth-child(2) {
     position: relative;
     height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 section:nth-child(2) > div:nth-child(1) {
@@ -58,9 +61,11 @@ section:nth-child(2) > div:nth-child(1) {
 
 section:nth-child(2) > div:nth-child(2) {
     position: relative;
-    width: 50%;
     top: 60px;
-    left: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #skills {
