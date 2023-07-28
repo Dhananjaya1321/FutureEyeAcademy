@@ -67,6 +67,19 @@ section:nth-child(2) > div:nth-child(2) {
     flex-direction: column;
     align-items: center;
 }
+section:nth-child(2) > div:nth-child(2)>h2,h1 {
+    margin-bottom: 8px;
+}
+section:nth-child(2) > div:nth-child(2)>a>button {
+    border: none;
+    height: 40px;
+    background-color: #00ff0e;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    width: 200px;
+    font-size: 17px;
+}
 
 #skills {
     display: flex;
