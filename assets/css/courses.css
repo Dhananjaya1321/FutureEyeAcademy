@@ -67,10 +67,12 @@ section:nth-child(2) > div:nth-child(2) {
     flex-direction: column;
     align-items: center;
 }
-section:nth-child(2) > div:nth-child(2)>h2,h1 {
+
+section:nth-child(2) > div:nth-child(2) > h2, h1 {
     margin-bottom: 8px;
 }
-section:nth-child(2) > div:nth-child(2)>a>button {
+
+section:nth-child(2) > div:nth-child(2) > a > button {
     border: none;
     height: 40px;
     background-color: #00ff0e;
@@ -78,6 +80,7 @@ section:nth-child(2) > div:nth-child(2)>a>button {
     padding: 5px;
     color: white;
     width: 200px;
+    margin-bottom: 20px;
     font-size: 17px;
 }
 
@@ -86,7 +89,8 @@ section:nth-child(2) > div:nth-child(2)>a>button {
     gap: 10px;
     align-items: center;
 }
-#skills>div{
+
+#skills > div {
     display: flex;
     background-color: #0fff19;
     height: 16px;
@@ -98,4 +102,27 @@ section:nth-child(2) > div:nth-child(2)>a>button {
     /* font-weight: bold; */
     color: white;
     box-shadow: 0px 2px 7px -4px black;
+}
+
+.recording-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    width: 80%;
+}
+
+.recording-links >p {
+    flex-grow: 1;
+}
+.recording-links >a> button {
+    border: none;
+    /* height: 33px; */
+    background-color: #00ff0e;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    width: 100px;
+    font-size: 18px;
+    box-shadow: 0px 4px 20px -11px black;
 }
