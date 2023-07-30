@@ -188,11 +188,11 @@ li > a {
     align-items: center;
 }
 
-#div-join-whatsapp-group > button:hover {
+#div-join-whatsapp-group >a> button:hover {
     box-shadow: 0px 1px 20px 0px #00ff0e;
 }
 
-#div-join-whatsapp-group > button {
+#div-join-whatsapp-group >a> button {
     height: 50px;
     border-radius: 10px;
     border: none;
@@ -592,11 +592,11 @@ li > a {
     font-size: 40px
 }
 
-#contact > button:hover {
+#contact >a> button:hover {
     box-shadow: 0px 3px 20px 0px #41FA00;
 }
 
-#contact > button {
+#contact > a>button {
     display: flex;
     justify-content: center;
     align-items: center;
