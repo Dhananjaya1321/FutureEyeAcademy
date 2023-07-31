@@ -1,4 +1,6 @@
 let javaElements, webElements, mobileElements, gameElements;
+
+/*---------------------------------------------------course section-------------------------------------------------*/
 document.getElementById("course-nav-all").addEventListener("click", function () {
     javaElements = document.getElementsByClassName("java");
     webElements = document.getElementsByClassName("web");
@@ -110,3 +112,42 @@ function setDisplay(java, web, mobile, game, selectedCourse) {
             break;
     }
 }
+
+/*---------------------------------------------------student-works section-------------------------------------------------*/
+/*
+document.getElementById("studens-works-nav-all").addEventListener("click", function () {
+    javaElements = document.getElementsByClassName("java");
+    webElements = document.getElementsByClassName("web");
+    mobileElements = document.getElementsByClassName("mobile");
+    gameElements = document.getElementsByClassName("game");
+    setDisplay(javaElements, webElements, mobileElements, gameElements, "all");
+});
+document.getElementById("studens-works-nav-web").addEventListener("click", function () {
+    javaElements = document.getElementsByClassName("java");
+    webElements = document.getElementsByClassName("web");
+    mobileElements = document.getElementsByClassName("mobile");
+    gameElements = document.getElementsByClassName("game");
+    setDisplay(javaElements, webElements, mobileElements, gameElements, "web");
+});
+document.getElementById("studens-works-nav-mobile").addEventListener("click", function () {
+    javaElements = document.getElementsByClassName("java");
+    webElements = document.getElementsByClassName("web");
+    mobileElements = document.getElementsByClassName("mobile");
+    gameElements = document.getElementsByClassName("game");
+    setDisplay(javaElements, webElements, mobileElements, gameElements, "mobile");
+});
+document.getElementById("studens-works-nav-computer").addEventListener("click", function () {
+    javaElements = document.getElementsByClassName("java");
+    webElements = document.getElementsByClassName("web");
+    mobileElements = document.getElementsByClassName("mobile");
+    gameElements = document.getElementsByClassName("game");
+    setDisplay(javaElements, webElements, mobileElements, gameElements, "computer");
+});
+document.getElementById("studens-works-nav-game").addEventListener("click", function () {
+    javaElements = document.getElementsByClassName("java");
+    webElements = document.getElementsByClassName("web");
+    mobileElements = document.getElementsByClassName("mobile");
+    gameElements = document.getElementsByClassName("game");
+    setDisplay(javaElements, webElements, mobileElements, gameElements, "game");
+});
+*/

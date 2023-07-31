@@ -188,11 +188,11 @@ li > a {
     align-items: center;
 }
 
-#div-join-whatsapp-group >a> button:hover {
+#div-join-whatsapp-group > a > button:hover {
     box-shadow: 0px 1px 20px 0px #00ff0e;
 }
 
-#div-join-whatsapp-group >a> button {
+#div-join-whatsapp-group > a > button {
     height: 50px;
     border-radius: 10px;
     border: none;
@@ -271,7 +271,7 @@ li > a {
     flex-direction: row;
 }
 
-.social-links >a> div:hover {
+.social-links > a > div:hover {
     background-color: #00FF66;
     color: white;
     box-shadow: 0px 0px 12px 0 #00ff0e;
@@ -579,7 +579,7 @@ li > a {
     margin-bottom: 10px;
 }
 
-#social-links-footer >a> div {
+#social-links-footer > a > div {
     margin-bottom: 0px;
 }
 
@@ -592,11 +592,11 @@ li > a {
     font-size: 40px
 }
 
-#contact >a> button:hover {
+#contact > a > button:hover {
     box-shadow: 0px 3px 20px 0px #41FA00;
 }
 
-#contact > a>button {
+#contact > a > button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -667,7 +667,7 @@ li > a {
         right: -19px;
     }
 
-    #div-join-whatsapp-group > button {
+    #div-join-whatsapp-group > a > button {
         height: 45px;
         margin-left: 100px;
         font-size: 22px;
@@ -699,7 +699,7 @@ li > a {
         font-size: 35px;
     }
 
-    #div-join-whatsapp-group > button {
+    #div-join-whatsapp-group > a > button {
         margin-left: 130px;
     }
 
@@ -837,7 +837,7 @@ li > a {
         justify-content: center;
     }
 
-    #div-join-whatsapp-group > button {
+    #div-join-whatsapp-group > a > button {
         height: 38px;
         margin-left: 0;
         color: white;
