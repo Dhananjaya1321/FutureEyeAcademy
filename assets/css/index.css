@@ -915,4 +915,46 @@ li > a {
     }
 }
 
+@media all and (min-width: 1360px) and (max-width: 1440px) {
+    #home-section {
+        background: #C9FFD8;
+    }
+
+    #home-section > article {
+        width: 60%;
+        top: 129px;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #div-join-whatsapp-group > a > button {
+        margin-left: 0;
+    }
+
+    #home-section > aside {
+        bottom: 0;
+    }
+
+    #home-section > aside > div:nth-child(6) {
+        right: 300px;
+        bottom: 380px;
+    }
+
+    #home-section > aside > div:nth-child(5) {
+        right: 225px;
+        bottom: -70px;
+    }
+
+    #home-section > aside > div:nth-child(3) {
+        right: -20px;
+        bottom: 295px;
+    }
+
+    #home-section > aside > img {
+        width: 355px;
+    }
+}
 
