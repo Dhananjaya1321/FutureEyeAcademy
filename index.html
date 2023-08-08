@@ -29,6 +29,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 <body>
@@ -53,14 +54,14 @@
             <img src="assets/images/man-with-laptop-removebg-preview.png">
             <div></div>
             <div></div>
-            <div></div>
-            <div></div>
+            <div data-aos="fade-up-right"></div>
+            <div data-aos="fade-down"></div>
         </aside><!--images-->
         <article>
-            <h5>open your eyes and join us to see the future</h5>
-            <h1>Future Eye</h1>
-            <h3>The Best Training Academy</h3>
-            <div id="div-join-whatsapp-group">
+            <h5 data-aos="fade-right">open your eyes and join us to see the future</h5>
+            <h1 data-aos="fade-left">Future Eye</h1>
+            <h3 data-aos="fade-right">The Best Training Academy</h3>
+            <div data-aos="fade-up" id="div-join-whatsapp-group">
                 <a href="https://chat.whatsapp.com/GPkbcnCF2lE7CWf2S0VhU3" target="_blank">
                     <button>Join Whatsapp Group</button>
                 </a>
@@ -77,16 +78,16 @@
                 <div id="about-image-div">
                     <img src="assets/images/robot.png">
                     <div id="social-links" class="social-links">
-                        <a href="https://www.facebook.com/profile.php?id=100095384619938&mibextid=ZbWKwL" target="_blank">
+                        <a data-aos="fade-up" href="https://www.facebook.com/profile.php?id=100095384619938&mibextid=ZbWKwL" target="_blank">
                             <div><i class="fa-brands fa-facebook fa-2xl"></i></div>
                         </a>
-                        <a href="https://www.linkedin.com/company/future-eye-academy" target="_blank">
+                        <a data-aos="fade-up" href="https://www.linkedin.com/company/future-eye-academy" target="_blank">
                             <div><i class="fa-brands fa-linkedin fa-2xl"></i></div>
                         </a>
-                        <a href="https://www.tiktok.com/@fea2975?_t=8eS7BYgOkIJ&_r=1" target="_blank">
+                        <a data-aos="fade-up" href="https://www.tiktok.com/@fea2975?_t=8eS7BYgOkIJ&_r=1" target="_blank">
                             <div><i class="fa-brands fa-tiktok fa-2xl"></i></div>
                         </a>
-                        <a href="https://youtube.com/@FutureEyeAcademy" target="_blank">
+                        <a data-aos="fade-up" href="https://youtube.com/@FutureEyeAcademy" target="_blank">
                             <div><i class="fa-brands fa-youtube fa-2xl"></i></div>
                         </a>
                     </div>
@@ -131,7 +132,7 @@
             </menu>
         </nav>
         <section id="courses">
-            <div class="java">
+            <div data-aos="fade-up" class="java">
                 <img src="assets/images/close-up-image-programer-working-his-desk-office.jpg" width="220px">
                 <div>
                     <h2>Java Programming</h2>
@@ -143,7 +144,7 @@
                     </a>
                 </div>
             </div>
-            <div class="web">
+            <div data-aos="fade-up" class="web">
                 <img src="assets/images/2488101_331201-PAOPP5-450.jpg" width="220px">
                 <div>
                     <h2>Web Development</h2>
@@ -154,7 +155,7 @@
                     </a>
                 </div>
             </div>
-            <div class="web game">
+            <div data-aos="fade-up" class="web game">
                 <img src="assets/images/programming-background-collage.jpg" width="220px">
                 <div>
                     <h2>Web Development 2</h2>
@@ -165,7 +166,7 @@
                     </a>
                 </div>
             </div>
-            <div class="web">
+            <div data-aos="fade-up" class="web">
                 <img src="assets/images/programming-background-collage%20(1).jpg" width="220px">
                 <div>
                     <h2>Web Development 3</h2>
@@ -176,7 +177,7 @@
                     </a>
                 </div>
             </div>
-            <div class="web">
+            <div data-aos="fade-up" class="web">
                 <img src="assets/images/ecommers.jpg" width="220px">
                 <div>
                     <h2>Web Development 4</h2>
@@ -187,7 +188,7 @@
                     </a>
                 </div>
             </div>
-            <div class="mobile">
+            <div data-aos="fade-up" class="mobile">
                 <img src="assets/images/mobile.jpg" width="220px">
                 <div>
                     <h2>Mobile Applications</h2>
@@ -224,12 +225,12 @@
             </menu>
         </nav>
         <section>
-            <div class=""></div>
-            <div class=""></div>
-            <div class=""></div>
-            <div class=""></div>
-            <div class=""></div>
-            <div class=""></div>
+            <div data-aos="fade-up" class=""></div>
+            <div data-aos="fade-up" class=""></div>
+            <div data-aos="fade-up" class=""></div>
+            <div data-aos="fade-up" class=""></div>
+            <div data-aos="fade-up" class=""></div>
+            <div data-aos="fade-up" class=""></div>
         </section>
         <div class="view-all-div">
             <a href="pages/studentWorks.html" target="_blank">
@@ -366,5 +367,9 @@
     </a></section>
 <script src="assets/fontawesome-free-6.4.0-web/js/all.js"></script>
 <script src="assets/js/index.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>

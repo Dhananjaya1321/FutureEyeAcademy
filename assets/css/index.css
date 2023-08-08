@@ -744,6 +744,10 @@ li > a {
         margin-left: 3px;
         margin-right: 3px;
     }
+    #contact > a > button {
+        width: 50px;
+        height: 50px;
+    }
 }
 
 @media all and (max-width: 768px) {
@@ -883,7 +887,7 @@ li > a {
     }
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 424px) {
     #courses-section > nav {
         display: none;
     }
@@ -913,13 +917,20 @@ li > a {
         gap: 20px;
         flex-direction: row;
     }
+    #contact > a > button {
+        width: 45px;
+        height: 45px;
+    }
 }
 
 @media all and (min-width: 1360px) and (max-width: 1440px) {
     #home-section {
         background: #C9FFD8;
+        overflow: unset;
     }
-
+    #home-section > aside > img {
+        bottom: -3px;
+    }
     #home-section > article {
         width: 60%;
         top: 129px;
@@ -952,7 +963,9 @@ li > a {
         right: -20px;
         bottom: 295px;
     }
-
+    #home-section > aside > div:nth-child(4) {
+        bottom: 0px;
+    }
     #home-section > aside > img {
         width: 355px;
     }
