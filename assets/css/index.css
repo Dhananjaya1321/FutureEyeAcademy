@@ -1,3 +1,7 @@
+#courses-section > section > div > div > h2{
+    font-size: 18px;
+}
+
 * {
     scroll-behavior: smooth;
 }
